@@ -17,21 +17,21 @@ PURPLE = (128, 0, 128)
 
 # Game variables
 GRAVITY = 1
-PLAYER_SPEED = 5
-JUMP_STRENGTH = 25
+PLAYER_SPEED = 7
+JUMP_STRENGTH = 30
 PROJECTILE_SPEED = 10
 ENEMY_SPEED = 2
 BOSS_SPEED = 1
 PLAYER_LIVES = 3
 PLAYER_HEALTH = 100
 LEVEL_COUNT = 3
-SCORE_TO_NEXT_LEVEL = 1000
+SCORE_TO_NEXT_LEVEL = 500
 BOSS_HEALTH = 30
 BOSS_KNOCKBACK = 10
 
 # Set up screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Side-scrolling Adventure")
+pygame.display.set_caption("Fox Adventure")
 
 # Clock to control game speed
 clock = pygame.time.Clock()
