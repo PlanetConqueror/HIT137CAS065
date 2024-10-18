@@ -162,7 +162,6 @@ class BossEnemy(Enemy):
 
     def take_damage(self):
         self.health -= 1
-        pygame.mixer.Sound.play(hit_sound)  # Play hit sound when boss is hit
         if self.health <= 0:
             pygame.mixer.Sound.play(win_sound)  # Play win sound when boss is defeated
             self.kill()
